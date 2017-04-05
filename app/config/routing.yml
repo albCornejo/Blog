@@ -1,0 +1,10 @@
+shop:
+    resource: "@ShopBundle/Controller/"
+    type:     annotation
+    prefix:   /shop
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+    prefix:   /app
+    

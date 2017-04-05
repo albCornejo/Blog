@@ -1,0 +1,10 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}Article list{% endblock %}
+
+{% block body %}
+    <h2>Article list</h2>
+    <a href="{{ path('article_by_slug', {'slug': 'new-slug'}) }}">Go slug</a>
+    <a href="{{ path('article_by_slug', {'slug': 'new-slug'}) }}">Go to by slug</a>
+{% endblock %}
+
